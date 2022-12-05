@@ -1,6 +1,6 @@
 {
   "name": "@jamesjdistefano/pds",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parsimony Design System",
   "type": "module",
   "main": "lib/index.js",
