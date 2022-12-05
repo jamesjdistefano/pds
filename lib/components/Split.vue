@@ -1,6 +1,8 @@
 <template>
   <div class="layout">
-    <div class="splitImage"><img src="../../static/images/wall-jaunty-fatboy.jpg" width="1000"></div>
+    <div class="splitImage">
+      <slot name="image"><img src="https://placekitten.com/300/1000/" width="1000" /></slot>
+    </div>
     <div class="copy">
       <h3><slot name="title">The Jaunty Fatboy</slot></h3>
       <p><slot>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking.</slot></p>
@@ -13,7 +15,7 @@
           <li>(1) SIGNED CERTIFICATE OF AUTHENTICITY</li>
           </slot>
         </ul>
-      <p class="cta"><img class="arrow" src="../../static/images/arrow-right.png" /><slot name="price"><s>$1100</s>&nbsp;<s>$1248</s>&nbsp;| SOLD SOLD SOLD</slot></p>
+      <!-- <p class="cta"><img class="arrow" src="../../static/images/arrow-right.png" /><slot name="price"><s>$1100</s>&nbsp;<s>$1248</s>&nbsp;| SOLD SOLD SOLD</slot></p> -->
     </div>
   </div>
 </template>
