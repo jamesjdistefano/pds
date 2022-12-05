@@ -1,0 +1,228 @@
+@import "./fonts.scss";
+@import "./variables.scss";
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: white;
+  font-family: "Spline-Sans-Mono", sans-serif; 
+  font-weight: 300; 
+  color: black;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  max-width: 100%;
+  margin: 0 auto;
+
+}
+
+.sixteenhundo {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  max-width: 160rem;
+  margin: 8rem auto;
+  padding-left: clamp(2rem, 5vw, 4rem);
+  padding-right: clamp(2rem, 5vw, 4rem);
+}
+
+.tenhundo {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  max-width: 100rem;
+  margin: 8rem auto;
+  padding-left: clamp(2rem, 5vw, 4rem);
+  padding-right: clamp(2rem, 5vw, 4rem);
+}
+
+
+
+.wall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit:cover;
+}
+
+.copy-small { 
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  font-weight: 400;
+  line-height: clamp(2.5rem, 5vw, 3.5rem);
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.full {
+  width: 100%;
+}
+
+p, .copy { 
+  margin-bottom: 4rem;
+  font-size: clamp(1.6rem, 2vw, 2.1rem);
+  line-height: clamp(3.2rem, 4vw, 4.2rem);
+}
+
+img {
+  padding: 0;
+  margin: 0;
+}
+
+.image-border {
+  border-top: .3rem $spring-green solid;
+  border-bottom: .3rem $spring-green solid;
+  margin-bottom: 8rem;
+}
+
+.image-respond { 
+  max-width: 100%; 
+}
+
+a {
+  color: $blue;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $magenta;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+}
+
+h1,  h2, h3, h4, h5, h6, .lg-display {
+  font-family: Domine, serif;
+  font-weight: 500;
+  line-height: auto;
+}
+
+h1 {
+    font-size: clamp(4.8rem, 8vw, 9rem);
+    line-height: clamp(5rem, 8vw, 10rem);
+}
+
+h2 {
+    font-size: clamp(3.6rem, 8vw, 6rem);
+    margin-top: 16rem; 
+    margin-bottom: 4rem;
+
+}
+
+h3 {
+    font-size: clamp(2.4rem, 8vw, 3.8rem);
+    margin-bottom: 0rem;
+
+}
+
+h4 {
+    font-size: clamp(2.1rem, 8vw, 2.8rem);
+    font-weight: 700;
+    margin-top: 8rem; 
+    margin-bottom: 0rem;
+
+}
+
+h5 {
+    font-size: clamp(1.8rem, 8vw, 2.2rem);
+    font-weight: 700;
+    margin-top: 8rem; 
+    margin-bottom: 0rem;
+
+}
+
+.lg-display {
+  font-weight: 600;
+  font-size: clamp(9rem, 15vw, 18rem);
+  line-height: clamp(10rem, 15vw, 5rem);
+}
+
+.display1 {
+  font-family: Spline-Sans-Mono, sans-serif;
+  font-weight: 400;
+  font-size: clamp(2.8rem, 6vw, 3.6rem);
+  line-height: clamp(4rem, 8vw, 5.2rem);
+  text-align: center 
+}
+
+.display2 {
+  font-weight: 400;
+  font-size: clamp(2.2rem, 6vw, 2.6rem);
+  line-height: clamp(4rem, 8vw, 5.2rem);
+
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.eyecatching { 
+font-weight: 300;
+font-family: Spline-Sans-Mono, sans-serif;
+font-size: 13.6rem;
+font-size: clamp(7.2rem, 15vw, 13.6rem);
+line-height: clamp(10rem, 15vw, 15rem);
+text-align: center 
+}
+
+.dolla {
+font-size: 8.8rem;
+position: relative;
+bottom: 3.8rem;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+  line-height: normal;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: $dark-warm-grey;
+  opacity: 60%;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.dropcap {
+  color: $white;
+  font-weight: 300;
+  float: left;
+  font-size: 12rem;
+  line-height: 14rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: 2rem;
+}
+
+.dc-magenta {
+  background-color: $magenta;
+}
+
+.dc-teal {
+  background-color: $teal;
+}
+
+.dc-hotpurple {
+  background-color: $hot-purple;
+}
+
+.align-left {
+  margin-right: auto;
+}
+
+.label {
+  text-transform: uppercase;
+  padding: .6rem 2rem;
+  margin-bottom: 0;
+  background-color: $light-grey;
+}
