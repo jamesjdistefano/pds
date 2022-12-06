@@ -19,7 +19,7 @@ nav {
 }
 
 a {
-    color: black;
+    color: $dark-warm-grey;
     text-decoration: none;
 }
 

@@ -15,7 +15,7 @@
           <li>(1) SIGNED CERTIFICATE OF AUTHENTICITY</li>
           </slot>
         </ul>
-      <!-- <p class="cta"><img class="arrow" src="../../static/images/arrow-right.png" /><slot name="price"><s>$1100</s>&nbsp;<s>$1248</s>&nbsp;| SOLD SOLD SOLD</slot></p> -->
+      <p class="cta"><slot name="link"></slot></p>
     </div>
   </div>
 </template>
@@ -91,11 +91,9 @@ ul {
   line-height: 2rem;
 }
 
-.cta {
+a {
   color: $orange;
   font-weight: 400;
-  display: inline-flex;
-  align-items: center; 
 }
 
 .arrow { 

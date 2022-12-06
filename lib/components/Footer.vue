@@ -14,11 +14,12 @@
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+@import "../assets/css/variables.scss";
 
 .footer {
-  background-color: var(--brown);
-  color: white;
+  background-color: $brown;
+  color: $white;
 
   /* width: 90vw; */
   max-width: 100rem;
@@ -34,3 +35,6 @@
   margin-top: 8rem;
 }
 </style>
+
+<script>
+</script>
